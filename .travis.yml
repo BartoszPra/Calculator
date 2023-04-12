@@ -1,4 +1,5 @@
-language: swift
-xcode_project: Calculator.xcodeproj # path to your xcodeproj folder
-xcode_scheme: Calculator
-xcode_destination: platform=iOS Simulator,OS=14.3,name=iPhone 13
+language: objective-c  #1
+osx_image: xcode13 #2
+xcode_workspace: Calculator.xcodeproj #3
+xcode_scheme: Calculator #4
+xcode_sdk: iphonesimulator13.0 #5
