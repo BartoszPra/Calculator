@@ -1,0 +1,4 @@
+language: swift
+xcode_project: Calculator.xcodeproj # path to your xcodeproj folder
+xcode_scheme: CalculatorTests
+xcode_destination: platform=iOS Simulator,OS=14.3,name=iPhone 13
